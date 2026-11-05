@@ -1,5 +1,7 @@
 # timeedit-open
 
+[Download the app (APK)](apk/kth-timeedit-open.apk?raw=true)
+
 A free, open-source mobile app (Expo / React Native, TypeScript) that shows your
 [TimeEdit](https://www.timeedit.com/) schedule and lets you add extra courses.
 
@@ -32,6 +34,7 @@ src/theme.ts, ui.tsx     colour palettes and small themed components
 src/storage.ts           AsyncStorage persistence
 tests/core.test.ts       tests for src/core
 assets/                  App icons
+apk/                     Pre compiled 
 ```
 
 ## Run it
