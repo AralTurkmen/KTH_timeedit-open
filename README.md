@@ -1,7 +1,5 @@
 # timeedit-open
 
-[Download the latest APK](https://github.com/AralTurkmen/timeedit-open/releases/latest/download/kth-timeedit-open.apk)
-
 A free, open-source mobile app (Expo / React Native, TypeScript) that shows your
 [TimeEdit](https://www.timeedit.com/) schedule and lets you add extra courses.
 
