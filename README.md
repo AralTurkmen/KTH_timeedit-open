@@ -118,18 +118,6 @@ Only rooms you open yourself are saved; the app does not search or crawl kth.se 
 Floor-plan images over about 1 MB are not stored (the page address still is). Other universities
 can be supported by changing the URLs and labels in `src/core/rooms.ts`.
 
-### Known limitations
-
-- **Not yet tested against a live TimeEdit instance or on a device.** The core
-  (parser, time zones, expiry, merging) is unit-tested using the shape of real KTH links;
-  the WebView link capture (`src/screens/sniffer.ts`, tested only against a stub page) is the part most likely to need
-  adjusting for your university's page. If it does not pick up the link, paste it instead.
-- Room lookup depends on the layout of kth.se pages (labels such as `Lokalkod`, the floor-plan path `/places/floorplan/`, photos from `facility.admin.kth.se`). If KTH changes them, saved details may stay empty, but the page itself still works.
-- Recurring-event rules (RRULE) are not expanded; TimeEdit lists each occurrence as its own event.
-- Refreshes happen on app start and pull-to-refresh only. Check your university's terms
-  before publishing the app widely.
-- Never commit real feed links (they contain tokens) to the repo or to issues.
-
 ## Ideas for contributions
 
 Home-screen widget, notifications before lectures, per-course colors, hiding
